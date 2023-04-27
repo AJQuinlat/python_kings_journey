@@ -1,0 +1,38 @@
+King's Journey Instructions
+
+There are three main interfaces to this program: The Start Menu, The Game Interface, and the Game Over Screen.
+
+1. The Start Menu
+
+The first interface will be the start menu where you will be given a choice from 0,1,2 where 1 creates
+a new game, 2 asks for a savefile name and loads the game, and 0 that terminated the program. If you enter 
+anything aside from those choices the game will give you a prompt to enter a valid choice and clears and displays
+the start menu again.
+
+2. The Game Interface
+
+The game interface is where you would be spending most of your time trying to answer the puzzle. At the moment I only
+placed one hard puzzle and I plan on making a choice of easy, medium, and hard if I had the time. If you picked 1 in 
+the start menu, the program will read a text file that contains a blank board and compares it to the hard puzzle I
+placed and picks 18-20 random spaces to fill-up. The first(1) and last square(49) will always be given. The game is self
+clearing everytime you make a move and changes the move count everytime you make a valid move. Only moves that are inside
+the board would be valid and any move that would be outside the board would return a prompt that says the previous move
+was invalid; this won't update the move counter as well. You have 8 choices of moves and if you make a wrong move or move 
+to a square that you have previously moved at the game will display the [Game Over] screen. You will have a choice to 
+continue or to quit. If you picked continue then you would resume with your previous position prior to the mistake. If 
+you picked quit then is will still bring you back to the game screen but display the correct path. If you finished the
+game correctly it would also display the correct path from start to end with a congratulatory message at the end saying
+"Well Done!". If you load a game it would resume like normal. Included in the zip file is a saved game with the file name
+"savefile" that you can use to simulate a loaded game. Quit will terminate the game immediately. If you choose an answer 
+not included in the given choices the game will prompt you to answer correctly.
+
+3. Game Over Screen
+
+Is a screen that would be displayed if you make a mistake and it would prompt you to choose to continue or quit with a
+time limit of 10 seconds. If you choose quit it would chow the correct path first then end the program. If you choose to
+continue it would resume the game like normal.
+
+
+Hope you enjoy testing my program! :D
+Angelo Jasper Quinlat | UV3L
+ 
